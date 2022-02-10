@@ -6,25 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/reset.css">
+    <!-- <link rel="stylesheet" href="./styles/reset.css"> -->
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/home.css">
-    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./styles/home.css"> -->
+    <title>Zillo</title>
 </head>
 
 <body>
     <div id="search">
         <!-- background image -->
         <section id="header">
-            <select id="hamburger">
-            <img id="logo">
+            <select id="hamburger"></select>
+            <img id="logo" src="/assets/zillow.svg">
             <a href="/" id="sign-in">Sign in</a>
         </section>
-        <h1 id="change">Change starts here</h1>
-        <div id="searching">
-            <input id="searchBar" type="text" placeholder="Enter an address, neighborhood, city, or zip code">
-            <button id="searchButton"></button>
+        <div id="search-area">
+            <h1 id="change">Change starts here</h1>
+            <div id="searching">
+                <input id="searchBar" type="text" placeholder="Enter an address, neighborhood, city, or zip code">
+                <button id="searchButton">🔍</button>
+            </div>
         </div>
+        
     </div>
     
     <script type="module" src="./app.js"></script>
